@@ -72,22 +72,14 @@ namespace Triangle
         static void Main(string[] args)
         {
 
-            Dot[] dotas = new Dot[3];
+            Triangle triangle = GetTriangle();
+            Console.WriteLine("Perimetr = {0}", triangle.Perimeter());
+            Console.WriteLine("Area = {0}", triangle.Area());
 
-            for (int i = 0; i < dotas.Length; i++)
-            {
-                Console.WriteLine($"Введите координату x точки #{i + 1}:");
-                double x = GetDouble();
-                Console.WriteLine($"Введите координату y точки #{i + 1}:");
-                double y = GetDouble();
 
-                dotas[i] = new Dot(x, y);
-            }
+            Console.ReadKey();
 
-            foreach(var d in dotas)
-            {
-                Console.WriteLine($"({d.X}, {d.Y})");
-            }
+
 
             Console.ReadKey();
         }

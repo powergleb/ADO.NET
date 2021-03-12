@@ -4,3 +4,9 @@ C:\Users\groka\Downloads\Triangle\Triangle\bin\Debug\Triangle.exe
 C:\Users\groka\Downloads\Triangle\Triangle\bin\Debug\Triangle.pdb
 C:\Users\groka\Downloads\Triangle\Triangle\obj\Debug\Triangle.exe
 C:\Users\groka\Downloads\Triangle\Triangle\obj\Debug\Triangle.pdb
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\bin\Debug\Triangle.exe.config
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\bin\Debug\Triangle.exe
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\bin\Debug\Triangle.pdb
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\obj\Debug\Triangle.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\obj\Debug\Triangle.exe
+C:\Users\groka\OneDrive\Desktop\ADO.NET\Triangle\Triangle\obj\Debug\Triangle.pdb
