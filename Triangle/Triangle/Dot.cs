@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Triangle
 {
-    class Dot
+    public class Dot
     {
         public double X { get; set; }
         public double Y { get; set; }

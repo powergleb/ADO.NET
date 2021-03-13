@@ -6,12 +6,48 @@ using System.Threading.Tasks;
 
 namespace Triangle
 {
-    class Program
+    public class Program
     {
-        static Triangle GetTriangle()
+        
+        public static void Main(string[] args)
+        {
+            Triangle triangle = GetTriangle();
+            Console.WriteLine("Perimetr = {0}", triangle.Perimeter());
+            Console.WriteLine("Area = {0}", triangle.Area());
+
+
+            Console.ReadKey();
+        }
+        private static double GetDouble()
+        {
+            FormatterResult<double> res = null;
+            do
+            {
+                string inp = Console.ReadLine();
+                res = StringFormatter.GetDouble(inp);
+
+                if (res.IsValid)
+                {
+                    Console.WriteLine("Нармальна!");
+                }
+                else
+                {
+                    Console.WriteLine("Ашыпки:");
+                    string s = string.Join("\n", res.Errors.Select(xs=>xs.Message));
+                    Console.WriteLine(s);
+ 
+                }
+            }
+            while (!res.IsValid);
+
+            return res.Value.Value;
+        }
+
+
+        private static Triangle GetTriangle()
         {
             Triangle triangle;
-            bool triangle_flag = false;
+            bool IsTriangleValid = false;
             do
             {
                 int dot_count = 3;
@@ -32,56 +68,14 @@ namespace Triangle
 
                 triangle = new Triangle(dots[0], dots[1], dots[2]);
                 if (triangle.IsValid())
-                    triangle_flag = true;
+                    IsTriangleValid = true;
                 else
                 {
                     Console.WriteLine("Вы ввели вырожденный треугольник, try next time.");
                 }
             }
-            while (!triangle_flag);
+            while (!IsTriangleValid);
             return triangle;
-        }
-        static double GetDouble()
-        {
-            FormatterResult<double> res = null;
-            do
-            {
-                string inp = Console.ReadLine();
-                res = StringFormatter.GetDouble(inp);
-
-                if (res.IsValid)
-                {
-                    Console.WriteLine("Нармальна!");
-                }
-                else
-                {
-                    Console.WriteLine("Ашыпки:");
-                    foreach (var s in res.Errors)
-                    {
-                        Console.WriteLine($"- {s.Message}");
-                    }
-                }
-            }
-            while (!res.IsValid);
-
-            return (double)res.Value;
-        }
-
-
-
-        static void Main(string[] args)
-        {
-
-            Triangle triangle = GetTriangle();
-            Console.WriteLine("Perimetr = {0}", triangle.Perimeter());
-            Console.WriteLine("Area = {0}", triangle.Area());
-
-
-            Console.ReadKey();
-
-
-
-            Console.ReadKey();
         }
     }
 }

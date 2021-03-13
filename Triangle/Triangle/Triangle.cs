@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Triangle
 {
 
-    class Triangle
+    public class Triangle
     {
-        Dot a, b, c;
+        private Dot a, b, c;
         public Triangle(Dot a1, Dot b1, Dot c1)
         {
             this.a = a1;
@@ -35,12 +35,7 @@ namespace Triangle
         }
         public bool IsValid()
         {
-            if (0.5 * Math.Abs((b.X - a.X) * (c.Y - a.Y) -
-                (c.X - a.X) * (b.Y - a.Y)) > 0)
-            {
-                return true;
-            }
-            return false;
+           return Area() > 0;
         }
     }
 }

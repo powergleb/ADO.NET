@@ -45,8 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dot.cs" />
-    <Compile Include="InputValidator.cs" />
-    <Compile Include="TriangleValidator.cs" />
+    <Compile Include="InputValidator\FormatterError.cs" />
+    <Compile Include="InputValidator\FormatterResult.cs" />
+    <Compile Include="InputValidator\StringFormatter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Triangle.cs" />

@@ -7,25 +7,8 @@ using System.Threading.Tasks;
 namespace Triangle
 {
 
-    class FormatterError
-    {
-        public string Message { get; set; }
-
-        public static FormatterError Create(string message) => new FormatterError
-        {
-            Message = message
-        };
-    }
-
-    class FormatterResult<T> where T : struct
-    {
-        public T? Value { get; set; } = null;
-        public List<FormatterError> Errors { get; set; } = new List<FormatterError>();
-        public bool IsValid => Errors.Count == 0;
-    }
-
-
-    static class StringFormatter
+    
+    public static class StringFormatter
     {
         public static FormatterResult<double> GetDouble(string input)
         {
