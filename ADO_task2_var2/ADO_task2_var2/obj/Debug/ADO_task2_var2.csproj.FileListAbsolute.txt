@@ -1,0 +1,13 @@
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.csprojResolveAssemblyReference.cache
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.csproj.CoreCompileInputs.cache
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.exe.config
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.exe
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.pdb
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.exe
+C:\Users\rokaxge\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.pdb
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.exe.config
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.exe
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\bin\Debug\ADO_task2_var2.pdb
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.csprojAssemblyReference.cache
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.exe
+C:\Users\groka\OneDrive\Desktop\ADO_task2_var2\ADO_task2_var2\ADO_task2_var2\obj\Debug\ADO_task2_var2.pdb
